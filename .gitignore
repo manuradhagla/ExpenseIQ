@@ -1,0 +1,43 @@
+# Node.js (client + server)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Vite / build outputs
+dist/
+build/
+
+# Python (server)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerfile
+*.env
+.env.local
+.env.development
+.env.production
+
+# Misc
+coverage/
